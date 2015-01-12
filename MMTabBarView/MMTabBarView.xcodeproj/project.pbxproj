@@ -163,6 +163,8 @@
 		06DB23AA1609F5830071BDA0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06DB23A91609F5830071BDA0 /* Cocoa.framework */; };
 		06DB23B41609F5830071BDA0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 06DB23B21609F5830071BDA0 /* InfoPlist.strings */; };
 		06DB23B81609F5830071BDA0 /* MMTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06DB23B71609F5830071BDA0 /* MMTabBarView.m */; };
+		3B5ED3C51A635A28003AC637 /* MMYosemiteTabStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B5ED3C31A635A28003AC637 /* MMYosemiteTabStyle.h */; };
+		3B5ED3C61A635A28003AC637 /* MMYosemiteTabStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5ED3C41A635A28003AC637 /* MMYosemiteTabStyle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -334,6 +336,8 @@
 		06DB23B51609F5830071BDA0 /* MMTabBarView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MMTabBarView-Prefix.pch"; sourceTree = "<group>"; };
 		06DB23B61609F5830071BDA0 /* MMTabBarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMTabBarView.h; sourceTree = "<group>"; };
 		06DB23B71609F5830071BDA0 /* MMTabBarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMTabBarView.m; sourceTree = "<group>"; };
+		3B5ED3C31A635A28003AC637 /* MMYosemiteTabStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMYosemiteTabStyle.h; sourceTree = "<group>"; };
+		3B5ED3C41A635A28003AC637 /* MMYosemiteTabStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMYosemiteTabStyle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -397,6 +401,8 @@
 		0634F0281609FD9000A6C86A /* Styles */ = {
 			isa = PBXGroup;
 			children = (
+				3B5ED3C31A635A28003AC637 /* MMYosemiteTabStyle.h */,
+				3B5ED3C41A635A28003AC637 /* MMYosemiteTabStyle.m */,
 				0634F0291609FD9000A6C86A /* MMAdiumTabStyle.h */,
 				0634F02A1609FD9000A6C86A /* MMAdiumTabStyle.m */,
 				0634F02B1609FD9000A6C86A /* MMAquaTabStyle.h */,
@@ -669,6 +675,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0634EFD91609FC4C00A6C86A /* MMAttachedTabBarButton.h in Headers */,
+				3B5ED3C51A635A28003AC637 /* MMYosemiteTabStyle.h in Headers */,
 				0634F0031609FC7F00A6C86A /* NSView+MMTabBarViewExtensions.h in Headers */,
 				0634F0051609FC7F00A6C86A /* MMAttachedTabBarButtonCell.h in Headers */,
 				0634F0071609FC7F00A6C86A /* MMOverflowPopUpButton.h in Headers */,
@@ -861,6 +868,7 @@
 				0634EFDC1609FC6300A6C86A /* MMAttachedTabBarButton.m in Sources */,
 				0634F0041609FC7F00A6C86A /* NSView+MMTabBarViewExtensions.m in Sources */,
 				0634F0061609FC7F00A6C86A /* MMAttachedTabBarButtonCell.m in Sources */,
+				3B5ED3C61A635A28003AC637 /* MMYosemiteTabStyle.m in Sources */,
 				0634F0081609FC7F00A6C86A /* MMOverflowPopUpButton.m in Sources */,
 				0634F00A1609FC7F00A6C86A /* MMProgressIndicator.m in Sources */,
 				0634F00C1609FC7F00A6C86A /* MMRolloverButton.m in Sources */,
