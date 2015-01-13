@@ -45,8 +45,10 @@
 		YosemiteCloseDirtyButtonDown = [[NSImage alloc] initByReferencingFile:[[MMTabBarView bundle] pathForImageResource:@"AquaTabCloseDirty_Front_Pressed"]];
 		YosemiteCloseDirtyButtonOver = [[NSImage alloc] initByReferencingFile:[[MMTabBarView bundle] pathForImageResource:@"AquaTabCloseDirty_Front_Rollover"]];
 
-        TabNewYosemite = [[NSImage alloc] initByReferencingFile:[[MMTabBarView bundle] pathForImageResource:@"YosemiteTabNew"]];
+        // TabNewYosemite = [[NSImage alloc] initByReferencingFile:[[MMTabBarView bundle] pathForImageResource:@"YosemiteTabNew"]];
 
+        TabNewYosemite = [NSImage imageNamed:NSImageNameAddTemplate];
+        
 		_leftMargin = -1.0f;
 	}
     
