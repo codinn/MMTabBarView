@@ -173,6 +173,8 @@
 		3B5ED3F71A6553EF003AC637 /* YosemiteTabClose_Front@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B5ED3EF1A6553EF003AC637 /* YosemiteTabClose_Front@2x.png */; };
 		3B5ED3F81A6553EF003AC637 /* YosemiteTabNew.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B5ED3F01A6553EF003AC637 /* YosemiteTabNew.png */; };
 		3B5ED3F91A6553EF003AC637 /* YosemiteTabNew@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B5ED3F11A6553EF003AC637 /* YosemiteTabNew@2x.png */; };
+		3B5ED40C1A666F7C003AC637 /* YosemiteTabNewPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B5ED40A1A666F7C003AC637 /* YosemiteTabNewPressed.png */; };
+		3B5ED40D1A666F7C003AC637 /* YosemiteTabNewPressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B5ED40B1A666F7C003AC637 /* YosemiteTabNewPressed@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -354,6 +356,8 @@
 		3B5ED3EF1A6553EF003AC637 /* YosemiteTabClose_Front@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "YosemiteTabClose_Front@2x.png"; sourceTree = "<group>"; };
 		3B5ED3F01A6553EF003AC637 /* YosemiteTabNew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YosemiteTabNew.png; sourceTree = "<group>"; };
 		3B5ED3F11A6553EF003AC637 /* YosemiteTabNew@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "YosemiteTabNew@2x.png"; sourceTree = "<group>"; };
+		3B5ED40A1A666F7C003AC637 /* YosemiteTabNewPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YosemiteTabNewPressed.png; sourceTree = "<group>"; };
+		3B5ED40B1A666F7C003AC637 /* YosemiteTabNewPressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "YosemiteTabNewPressed@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -489,6 +493,8 @@
 		0634F045160A0C8A00A6C86A /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				3B5ED40A1A666F7C003AC637 /* YosemiteTabNewPressed.png */,
+				3B5ED40B1A666F7C003AC637 /* YosemiteTabNewPressed@2x.png */,
 				3B5ED3EA1A6553EF003AC637 /* YosemiteTabClose_Front_Pressed.png */,
 				3B5ED3EB1A6553EF003AC637 /* YosemiteTabClose_Front_Pressed@2x.png */,
 				3B5ED3EC1A6553EF003AC637 /* YosemiteTabClose_Front_Rollover.png */,
@@ -803,6 +809,7 @@
 				0634F07B160A0C8A00A6C86A /* AquaTabNew@2x.png in Resources */,
 				3B5ED3F21A6553EF003AC637 /* YosemiteTabClose_Front_Pressed.png in Resources */,
 				0634F07C160A0C8A00A6C86A /* AquaTabNewPressed.png in Resources */,
+				3B5ED40C1A666F7C003AC637 /* YosemiteTabNewPressed.png in Resources */,
 				3B5ED3F61A6553EF003AC637 /* YosemiteTabClose_Front.png in Resources */,
 				0634F07D160A0C8A00A6C86A /* AquaTabNewPressed@2x.png in Resources */,
 				0634F07E160A0C8A00A6C86A /* AquaTabNewRollover.png in Resources */,
@@ -828,6 +835,7 @@
 				3B5ED3F31A6553EF003AC637 /* YosemiteTabClose_Front_Pressed@2x.png in Resources */,
 				0634F091160A0C8A00A6C86A /* TabClose_Front.png in Resources */,
 				0634F092160A0C8A00A6C86A /* TabClose_Front@2x.png in Resources */,
+				3B5ED40D1A666F7C003AC637 /* YosemiteTabNewPressed@2x.png in Resources */,
 				0634F093160A0C8A00A6C86A /* TabClose_Front_Pressed.png in Resources */,
 				0634F094160A0C8A00A6C86A /* TabClose_Front_Pressed@2x.png in Resources */,
 				0634F095160A0C8A00A6C86A /* TabClose_Front_Rollover.png in Resources */,

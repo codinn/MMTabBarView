@@ -19,6 +19,7 @@
 	NSImage				*YosemiteCloseDirtyButtonDown;
 	NSImage				*YosemiteCloseDirtyButtonOver;
     NSImage             *TabNewYosemite;
+    NSImage             *TabNewPressedYosemite;
 	CGFloat				_leftMargin;
 }
 

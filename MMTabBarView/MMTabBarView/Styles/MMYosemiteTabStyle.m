@@ -45,9 +45,10 @@
 		YosemiteCloseDirtyButtonDown = [[NSImage alloc] initByReferencingFile:[[MMTabBarView bundle] pathForImageResource:@"AquaTabCloseDirty_Front_Pressed"]];
 		YosemiteCloseDirtyButtonOver = [[NSImage alloc] initByReferencingFile:[[MMTabBarView bundle] pathForImageResource:@"AquaTabCloseDirty_Front_Rollover"]];
 
-        // TabNewYosemite = [[NSImage alloc] initByReferencingFile:[[MMTabBarView bundle] pathForImageResource:@"YosemiteTabNew"]];
+        TabNewYosemite = [[NSImage alloc] initByReferencingFile:[[MMTabBarView bundle] pathForImageResource:@"YosemiteTabNew"]];
+        TabNewPressedYosemite = [[NSImage alloc] initByReferencingFile:[[MMTabBarView bundle] pathForImageResource:@"YosemiteTabNewPressed"]];
 
-        TabNewYosemite = [NSImage imageNamed:NSImageNameAddTemplate];
+        // TabNewYosemite = [NSImage imageNamed:NSImageNameAddTemplate];
         
 		_leftMargin = -1.0f;
 	}
@@ -63,6 +64,7 @@
 	[YosemiteCloseDirtyButtonDown release], YosemiteCloseDirtyButtonDown = nil;
 	[YosemiteCloseDirtyButtonOver release], YosemiteCloseDirtyButtonOver = nil;
     [TabNewYosemite release], TabNewYosemite = nil;
+    [TabNewPressedYosemite release], TabNewPressedYosemite = nil;
 	[super dealloc];
 }
 
@@ -91,7 +93,7 @@
 }
 
 - (CGFloat)heightOfTabBarButtonsForTabBarView:(MMTabBarView *)tabBarView {
-    return 25;
+    return 23;
 }
 
 
@@ -151,7 +153,7 @@
 - (void)updateAddButton:(MMRolloverButton *)aButton ofTabBarView:(MMTabBarView *)tabBarView {
     
     [aButton setImage:TabNewYosemite];
-    [aButton setAlternateImage:TabNewYosemite];
+    [aButton setAlternateImage:TabNewPressedYosemite];
     [aButton setRolloverImage:TabNewYosemite];
 }
 
@@ -202,6 +204,7 @@
     }
 
     [[NSColor colorWithCalibratedWhite:0.576 alpha:1.0] set];
+    // do not draw top and bottom line in tab bar rect
 //    [NSBezierPath strokeLineFromPoint:NSMakePoint(NSMinX(rect), NSMinY(rect) + 0.5)
 //                              toPoint:NSMakePoint(NSMaxX(rect), NSMinY(rect) + 0.5)];
 //    
@@ -265,8 +268,8 @@
             aRect = NSMakeRect(frame.origin.x, frame.origin.y, frame.size.width, frame.size.height);
         }
         
-        aRect.origin.y += 1;
-        aRect.size.height -= 2;
+//        aRect.origin.y += 1;
+//        aRect.size.height -= 2;
         
         if (overflowMode) {
             [self _drawCardBezelInRect:aRect withCapMask:MMBezierShapeLeftCap|MMBezierShapeFlippedVertically usingStatesOfAttachedButton:button ofTabBarView:tabBarView];
@@ -306,8 +309,8 @@
         
         NSRect aRect = NSMakeRect(frame.origin.x, frame.origin.y, frame.size.width, frame.size.height);
         aRect.size.width += 5.0;
-        aRect.origin.y += 1;
-        aRect.size.height -= 2;
+//        aRect.origin.y += 1;
+//        aRect.size.height -= 2;
         
         [self _drawCardBezelInRect:aRect withCapMask:MMBezierShapeRightCap|MMBezierShapeFlippedVertically usingStatesOfAttachedButton:lastAttachedButton ofTabBarView:tabBarView];
         
